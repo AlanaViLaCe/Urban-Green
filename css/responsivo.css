@@ -1,0 +1,165 @@
+/* >>>>>>>INDICE<<<<<<<<< */
+/* COMPUTADOR ------- 6 */
+/* TABLET ----------- 53 */
+/* MOBILE ----------- 134 */
+
+/* COMPUTADOR */
+@media (max-width: 1100px){
+    /* Topo  */
+    .topo{
+        width: 100%;
+        margin: 0 10px 0 10px;
+    }
+    .menu{
+        margin-right: 10px;
+    }
+    /* Banner  */
+    .banner-texto{
+        width: 90%;
+    }
+    /* Estrutura  */
+    .evento, .universo, .parceria, .cadastro, .certificados{
+        width: 95%;
+    }
+
+    /* Eventos */
+    .evento-box{
+     flex-wrap: wrap;
+    }
+
+    .evento-box-caixa{
+        margin: 30px;
+    }
+
+    /* Universo e Parceria */
+    .conteudo-secao-img{
+        width: 400px;
+        height: 394px;
+    }
+    
+    .conteudo-secao-conteudo{
+        width: 45%;
+    }
+
+    /* Certificados  */
+    .certificados-logos img{
+        width: 201px;
+        height: 180px;
+    }
+}
+
+
+
+/* TABLET */
+@media (max-width: 768px){
+    body{
+        padding-top: 0;
+    }
+
+    /* HEADER */
+    header{
+        position: static;
+        margin-top: 0;
+    }
+
+    .topo{
+        flex-direction: column;
+    }
+
+    /* Menu */
+    .menu{
+        flex-direction: column;
+        align-items:center;
+        padding-left: 0;
+        margin-right: 0;
+    }
+
+    /* Banner */
+    .banner-texto{
+        padding-top: 100px;
+    }
+
+    .banner-texto-chamada{
+        padding: 0 10% 0 10%;
+    }
+
+    /* Universo e Parceria  */
+    .conteudo-secao{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .conteudo-secao-conteudo{
+        width: 90%;
+    }
+
+    .conteudo-secao-img{
+        margin-bottom: 20px;
+    }
+
+    .responsivo{
+        flex-direction: column-reverse;
+    }
+
+    /* CADASTRO */
+    .cadastro-conteudo{
+        width: 100%;
+    }
+
+    .form-campo{
+        width: 100%;
+    }
+
+    .botao-maior{
+        width: 100%;
+    }
+
+    /* CERTIFICADOS */
+    .certificados{
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .certificados-titulo{
+        font-size: 53px;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+    .certificados-logos img{
+        width: 261px;
+        height: 234px;
+    }
+}
+/* MOBILE */
+@media (max-width: 500px){
+    h1{
+        font-size: 50px;
+    }
+
+    .banner-texto{
+        padding-top: 30px;
+    }
+
+    h2{
+        font-size: 43px;
+    }
+
+    .evento-box{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .certificados-logos{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .certificados-logos img:first-child{
+        padding-bottom: 20px;
+    }
+
+    footer{
+        font-size: 12px;
+    }
+}
